@@ -13,7 +13,10 @@ class SecondViewController: UIViewController {
     
     var selected = false
     
+    
+    //keep strong reference to @IBOutlet. because when .active == false the constraint will be removed from the view
     @IBOutlet var greenGreyHorizontalSpaceConstraint: NSLayoutConstraint!
+    
     @IBOutlet weak var greenViewWidthConstraint: NSLayoutConstraint!
     
     override func viewDidLoad() {
