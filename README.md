@@ -1,5 +1,5 @@
 # Auto Layout Animation
-This is a project to show how UIView animation work with Auto Layout.
+This project shows how UIView animation work with Auto Layout.
 
 You can read the article at my blog.
 
